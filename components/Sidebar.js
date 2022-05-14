@@ -71,7 +71,7 @@ const Sidebar = () => {
               </>
             ) : (
               <div>
-                <div className={styles.welcome}>Wecome {username}</div>
+                <div className={styles.welcome}>Hi {username}</div>
               </div>
             )}
           </>
@@ -89,8 +89,8 @@ const Sidebar = () => {
               width={30}
               className={styles.amazonLogo}
             />
-            My Amazon
-            <br /> Board
+            Board
+            <br /> 
           </div>
         </Link>
         <div className={styles.menuItem}>
