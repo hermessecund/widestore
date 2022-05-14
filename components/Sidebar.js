@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import logo from '../assets/amazon_logo.png'
+import logo from '../assets/b.png'
 import logoFull from '../assets/amazon_logo_full.png'
 import Image from 'next/image'
 import { FaBox } from 'react-icons/fa'
