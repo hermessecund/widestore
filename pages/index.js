@@ -2,7 +2,7 @@ import Main from '../components/Main'
 import Sidebar from '../components/Sidebar'
 
 const styles = {
-  container: `h-full w-full flex bg-[#fff]`,
+  container: `h-full w-full flex bg-[#000]`,
 }
 
 export default function Home() {
