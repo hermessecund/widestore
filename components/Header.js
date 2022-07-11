@@ -33,7 +33,7 @@ const Header = () => {
         <div className={styles.logo}>
           <Image
             src={logo}
-            alt='amazon'
+            alt='hermessecund'
             height={150}
             width={150}
             className='object-cover'
