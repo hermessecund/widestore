@@ -85,7 +85,7 @@ const Sidebar = () => {
         <Link href='/'>
           <div className={styles.menuItem}>
             <Image
-              src={logo_h}
+              src={logo}
               height={30}
               width={30}
               className={styles.amazonLogo}
@@ -113,7 +113,7 @@ const Sidebar = () => {
         </Link>
       </div>
       <div className={styles.companyName}>
-        <Image src={logo} alt='HS' height={100} width={100} />
+        <Image src={logo_h} alt='HS' height={100} width={100} />
       </div>
     </div>
   )
