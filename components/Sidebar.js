@@ -12,8 +12,8 @@ import Link from 'next/link'
 
 const Sidebar = () => {
   const styles = {
-    container: `h-full w-[300px] flex flex-col bg-[#fff] static`,
-    profile: ` w-full py-16 flex flex-col justify-center items-center rounded-r-3xl mt-[40px] mb-[50px] border-2 border-[#33ffff]`,
+    container: `h-full w-[300px] flex flex-col bg-[#000] static`,
+    profile: ` w-full py-16 flex flex-col justify-center items-center rounded-r-3xl mt-[40px] mb-[40px] border-1 border-[#33ffff]`,
     profilePicContainer: `flex  rounded-xl items-center justify-center w-full h-full mb-5`,
     profilePic: `rounded-3xl object-cover`,
     welcome: ` text-md mb-2 font-bold text-2xl text-white`,
@@ -107,7 +107,7 @@ const Sidebar = () => {
         <Link href='/history'>
           <div className={styles.menuItem}>
             <AiOutlineHistory />
-            Transaction History
+            Transactions
           </div>
         </Link>
       </div>
