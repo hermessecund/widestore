@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { CgMenuGridO } from 'react-icons/cg'
-import logo from '../assets/amazon_logo_full.png'
+import logo from '../assets/HS_logo.gif'
 import Image from 'next/image'
 import { IoMdSearch } from 'react-icons/io'
 import { AmazonContext } from '../context/AmazonContext'
