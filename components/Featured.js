@@ -32,21 +32,21 @@ const Featured = () => {
         <div className={styles.card2}>
           <div className={styles.cardCross}>
             <video autoPlay loop muted controls='' className='object-cover'>
-              <source src='https://360hs.netlify.app/HS.gif#t=0.001' />
+              <source src='../assets/tcards/2_Twatch.gif#t=0.001' />
             </video>
           </div>
         </div>
         <div className={styles.card3}>
           <div className={styles.cardCross}>
             <video autoPlay loop muted controls='' className='object-cover'>
-              <source src='https://360hs.netlify.app/TC_Day.gif#t=0.001' />
+              <source src='../assets/tcards/3_Secund.gif#t=0.001' />
             </video>
           </div>
         </div>
         <div className={styles.card4}>
           <div className={styles.cardCross}>
             <video autoPlay loop muted controls='' className='object-cover'>
-              <source src='https://360hs.netlify.app/TC_HS.gif#t=0.001' />
+              <source src='../assets/tcards/4_Day.gif.gif#t=0.001' />
             </video>
           </div>
         </div>
