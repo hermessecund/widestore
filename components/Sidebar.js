@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import logo from '../assets/ico_logo.png'
 import logoFull from '../assets/HS_logo.gif'
+import logoFull from '../assets/logo_h.gif'
 import Image from 'next/image'
 import { FaBox } from 'react-icons/fa'
 import { BsFillBookmarkFill } from 'react-icons/bs'
@@ -84,7 +85,7 @@ const Sidebar = () => {
         <Link href='/'>
           <div className={styles.menuItem}>
             <Image
-              src={logo}
+              src={logo_h}
               height={30}
               width={30}
               className={styles.amazonLogo}
