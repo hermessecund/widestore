@@ -34,8 +34,8 @@ const Header = () => {
           <Image
             src={'../assets/banner.gif'}
             alt='hermessecund'
-            height={216px}
-            width={841px}
+            height={216}
+            width={841}
           />
         </div>
         <div className={styles.menu}>
