@@ -11,7 +11,7 @@ const BuyModal = ({ close, buyTokens }) => {
     title: `text-3xl font-bold flex flex-1 items-center mt-[20px] justify-center mb-[40px]`,
     content: `flex w-full mb-[30px] text-xl justify-center`,
     input: `w-[50%] h-[50px] bg-[#f7f6f2] rounded-lg p-[10px] flex mx-auto`,
-    inputBox: `w-full h-full flex items-center justify-center bg-[#f7f6f2] focus:outline-none`,
+    inputBox: `w-full h-full flex items-center justify-center bg-[#f7f6f2] text-black focus:outline-none`,
     price: `w-full h-full flex justify-center items-center mt-[20px] font-bold text-3xl`,
     buyBtn: `w-[30%] h-[30px] bg-[#fff] mt-[40px] rounded-lg p-[10px] flex mx-auto text-black justify-center items-center cursor-pointer`,
     loaderContainer: `w-full h-[400px] flex items-center justify-center`,
@@ -61,7 +61,7 @@ const BuyModal = ({ close, buyTokens }) => {
               className='cursor-pointer'
             />
           </div>
-          <div className={styles.title}>Buy More Amazon Coins Here!</div>
+          <div className={styles.title}>Buy SWT Coins Here!</div>
           <div className={styles.content}>
             Select how many tokens you would like to buy.
           </div>
