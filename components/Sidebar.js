@@ -71,7 +71,7 @@ const Sidebar = () => {
               </>
             ) : (
               <div>
-                <div className={styles.welcome}>Wecome {username}</div>
+                <div className={styles.welcome}>Hello {username}</div>
               </div>
             )}
           </>
@@ -112,7 +112,7 @@ const Sidebar = () => {
         </Link>
       </div>
       <div className={styles.companyName}>
-        <Image src={logoFull} alt='amazon' height={100} width={100} />
+        <Image src={logoFull} alt='HS' height={100} width={100} />
       </div>
     </div>
   )
