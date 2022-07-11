@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import logo from '../assets/ico_logo.png'
 import logoFull from '../assets/HS_logo.gif'
-import logo_h from '../assets/logo_h.gif'
+import logo_h from '../assets/logo_h.jpg'
 import Image from 'next/image'
 import { FaBox } from 'react-icons/fa'
 import { BsFillBookmarkFill } from 'react-icons/bs'
