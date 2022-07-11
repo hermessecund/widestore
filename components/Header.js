@@ -32,11 +32,10 @@ const Header = () => {
       <div className={styles.container}>
         <div className={styles.logo}>
           <Image
-            src={logo}
+            src={logoFull}
             alt='hermessecund'
             height={150}
             width={150}
-            className='object-cover'
           />
         </div>
         <div className={styles.menu}>
