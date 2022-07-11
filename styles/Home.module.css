@@ -19,6 +19,7 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+   color: #000000;
 }
 
 .footer a {
@@ -26,6 +27,7 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+   color: #0000;
 }
 
 .title a {
