@@ -17,7 +17,7 @@ import BuyModal from './BuyModal'
 
 const Header = () => {
   const styles = {
-    container: `h-full w-full flex items-center bg-[#000] text-white gap-5 px-16`,
+    container: `h-full w-full flex items-center bg-[#000] text-white gap-1 px-2`,
     logo: `flex items-center cursor-pointer flex-1`,
     search: `p-[25px] mr-[30px] w-[400px] h-[40px] bg-white rounded-full shadow-lg flex flex items-center border border-black`,
     searchInput: `bg-transparent focus:outline-none border-none flex-1 items-center flex`,
