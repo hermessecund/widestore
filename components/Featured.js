@@ -10,8 +10,8 @@ const Featured = () => {
 
   const styles = {
     container: `h-[400px] w-full flex p-[0px] flex-col`,
-    title: `text-2xl font-bolder mb-[20px] mt-[30px] mb-24 ml-[40px]`,
-    cards: `h-full w-full flex gap-[100px] justify-between mb-[30px] ml-[30px]`,
+    title: `text-2xl font-bolder mb-[20px] mt-[10px] mb-24 ml-[10px]`,
+    cards: `h-full w-full flex gap-[100px] justify-between mb-[10px] ml-[10px]`,
     card1: `h-[130px] w-[400px] p-[20px] rounded-3xl bg-gradient-to-l from-[#0d141c] to-[#42667e] relative cursor-pointer transition-all duration-300  hover:scale-105 hover:shadow-xl border-2 border-[#fb9701]`,
     card2: `h-[130px] w-[400px] p-[20px] rounded-3xl bg-gradient-to-l from-[#0d141c] to-[#42667e] relative cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl border-2 border-[#fb9701]`,
     card3: `h-[130px] w-[400px] p-[20px] rounded-3xl bg-gradient-to-l from-[#0d141c] to-[#42667e] relative cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl border-2 border-[#fb9701]`,
