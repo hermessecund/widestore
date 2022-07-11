@@ -13,7 +13,7 @@ import Link from 'next/link'
 const Sidebar = () => {
   const styles = {
     container: `h-full w-[300px] flex flex-col bg-[#fff] static`,
-    profile: ` w-full py-16 flex flex-col justify-center items-center rounded-r-3xl bg-gradient-to-t from-[#0d141c] to-[#42667e] mt-[40px] mb-[50px] border-2 border-[#fb9701]`,
+    profile: ` w-full py-16 flex flex-col justify-center items-center rounded-r-3xl mt-[40px] mb-[50px] border-2 border-[#33ffff]`,
     profilePicContainer: `flex  rounded-xl items-center justify-center w-full h-full mb-5`,
     profilePic: `rounded-3xl object-cover`,
     welcome: ` text-md mb-2 font-bold text-2xl text-white`,
