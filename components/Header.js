@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { CgMenuGridO } from 'react-icons/cg'
 import logo from '../assets/ico_logo.png'
+import logoban from '../assets/ban_logo.gif'
 import Image from 'next/image'
 import { IoMdSearch } from 'react-icons/io'
 import { AmazonContext } from '../context/AmazonContext'
@@ -17,7 +18,7 @@ import BuyModal from './BuyModal'
 const Header = () => {
   const styles = {
     container: `h-full w-full flex items-center bg-[#000] text-white gap-5 px-16`,
-    logo: `flex items-center ml-[10px] cursor-pointer flex-1`,
+    logo: `flex items-center cursor-pointer flex-1`,
     search: `p-[25px] mr-[30px] w-[400px] h-[40px] bg-white rounded-full shadow-lg flex flex items-center border border-black`,
     searchInput: `bg-transparent focus:outline-none border-none flex-1 items-center flex`,
     menu: `flex items-center gap-6`,
@@ -32,7 +33,7 @@ const Header = () => {
       <div className={styles.container}>
         <div className={styles.logo}>
           <Image
-            src={'../assets/banner.gif'}
+            src={logoban}
             alt='hermessecund'
             height={216}
             width={841}
