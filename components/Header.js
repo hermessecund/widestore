@@ -35,8 +35,8 @@ const Header = () => {
           <Image
             src={logoban}
             alt='hermessecund'
-            height={216}
-            width={841}
+            height={121}
+            width={800}
           />
         </div>
         <div className={styles.menu}>
