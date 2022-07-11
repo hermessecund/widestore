@@ -12,7 +12,7 @@ import Link from 'next/link'
 
 const Sidebar = () => {
   const styles = {
-    container: `h-full w-[300px] flex flex-col bg-[#000] text-white static`,
+    container: `h-full w-full flex flex-col bg-[#000] text-white static`,
     profile: ` w-full py-16 flex flex-col justify-center items-center rounded-r-3xl mt-[40px] mb-[40px] border-1 border-[#33ffff]`,
     profilePicContainer: `flex  rounded-xl items-center justify-center w-full h-full mb-5`,
     profilePic: `rounded-3xl object-cover`,
