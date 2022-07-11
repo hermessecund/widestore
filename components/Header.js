@@ -32,7 +32,7 @@ const Header = () => {
       <div className={styles.container}>
         <div className={styles.logo}>
           <Image
-            src={../assets/banner.gif}
+            src={'../assets/banner.gif'}
             alt='hermessecund'
             height={216px}
             width={841px}
