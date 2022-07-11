@@ -89,7 +89,7 @@ const Sidebar = () => {
               width={30}
               className={styles.amazonLogo}
             />
-            Hermessecund<br /> E.T
+            Hermessecund
           </div>
         </Link>
         <div className={styles.menuItem}>
@@ -112,7 +112,7 @@ const Sidebar = () => {
         </Link>
       </div>
       <div className={styles.companyName}>
-        <Image src={logoFull} alt='HS' height={100} width={100} />
+        <Image src={logo} alt='HS' height={100} width={100} />
       </div>
     </div>
   )
