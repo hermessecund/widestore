@@ -6,15 +6,15 @@ import Link from 'next/link'
 
 const BuyModal = ({ close, buyTokens }) => {
   const styles = {
-    container: `h-full w-full flex flex-col `,
-    closeX: `w-full h-[50px] flex items-center justify-end mb-[20px]`,
+    container: `h-full w-full flex bg-[#000] text-white flex-col `,
+    closeX: `w-full h-[50px] flex items-center justify-end mb-[10px]`,
     title: `text-3xl font-bold flex flex-1 items-center mt-[20px] justify-center mb-[40px]`,
     content: `flex w-full mb-[30px] text-xl justify-center`,
     input: `w-[50%] h-[50px] bg-[#f7f6f2] rounded-lg p-[10px] flex mx-auto`,
     inputBox: `w-full h-full flex items-center justify-center bg-[#f7f6f2] focus:outline-none`,
     price: `w-full h-full flex justify-center items-center mt-[20px] font-bold text-3xl`,
-    buyBtn: `w-[20%] h-[50px] bg-[#000] mt-[40px] rounded-lg p-[10px] flex mx-auto text-white justify-center items-center cursor-pointer`,
-    loaderContainer: `w-full h-[500px] flex items-center justify-center`,
+    buyBtn: `w-[30%] h-[30px] bg-[#fff] mt-[40px] rounded-lg p-[10px] flex mx-auto text-black justify-center items-center cursor-pointer`,
+    loaderContainer: `w-full h-[400px] flex items-center justify-center`,
     loader: `w-full h-full flex items-center justify-center`,
     etherscan: `w-full h-full flex items-center justify-center text-green-500 text-2xl mt-[20px] font-bold cursor-pointer`,
     success: `w-full h-full flex items-center justify-center text-xl mt-[20px] font-bolder`,
@@ -86,7 +86,7 @@ const BuyModal = ({ close, buyTokens }) => {
               buyTokens()
             }}
           >
-            Buy
+            Buy SWT
           </button>
           {etherscanLink && (
             <>
