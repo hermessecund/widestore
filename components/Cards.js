@@ -4,10 +4,11 @@ import { AmazonContext } from '../context/AmazonContext'
 
 const Cards = () => {
    const item = {
+         id: 0,
       attributes: {
-            name: "amoo"
+            name: "amoo",
             price: 2,
-            src: "https://media1.giphy.com/media/tRYARMeyH4OCMn7wV1/giphy.gif?cid=790b7611d15f0eefbcf4ea64af184c339f7bb93c8d7e07cf&rid=giphy.gif&ct=g"
+            src: "https://media1.giphy.com/media/tRYARMeyH4OCMn7wV1/giphy.gif?cid=790b7611d15f0eefbcf4ea64af184c339f7bb93c8d7e07cf&rid=giphy.gif&ct=g",
       }  
    }
   const styles = {
