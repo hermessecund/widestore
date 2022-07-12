@@ -10,7 +10,7 @@ const Main = () => {
     container: `h-full w-[90%] flex flex-col mt-[0px] pr-[0px] bg-[#000] text-white overflow-hidden`,
     recentTitle: `text-2xl font-bold text-center mb-[20px] text-center mt-[40px]`,
     recentTransactionsList: `flex flex-col`,
-    transactionCard: `flex justify-between mb-[5px] p-[10px] bg-[#ffff33] text-white rounded-xl shadow-xl font-bold gap-[20px] text-xl`,
+    transactionCard: `flex justify-between mb-[5px] p-[5px] bg-[#ffff33] text-white rounded-xl shadow-xl font-bold gap-[20px] text-xl`,
   }
   const { recentTransactions } = useContext(AmazonContext)
 
