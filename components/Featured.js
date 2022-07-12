@@ -71,7 +71,9 @@ const Featured = () => {
               <source src='' />
             </video>
           </div>
-        </div><br>
+        </div>
+      </div>
+      <div className={styles.cards}>
         <div className={styles.card7}>
           <div className={styles.cardCross}>
             <video autoPlay loop muted controls='' className='object-cover'>
@@ -114,6 +116,7 @@ const Featured = () => {
             </video>
           </div>
         </div>
+      </div>
     </div>
   )
 }
