@@ -4,7 +4,7 @@ import { AmazonContext } from '../context/AmazonContext'
 
 const Cards = () => {
    const item = {
-         id: 0,
+      id: 0,
       attributes: {
             name: "amoo",
             price: 2,
