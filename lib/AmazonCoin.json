@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
-  "contractName": "AmazonCoin",
-  "sourceName": "contracts/AmazonCoin.sol",
+  "contractName": "secundworld",
+  "sourceName": "contracts/sw.sol",
   "abi": [
     {
       "inputs": [],
