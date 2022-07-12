@@ -40,9 +40,7 @@ const Header = () => {
           />
         </div>
         <div className={styles.menu}>
-          <div className={styles.menuItem}>New Releases</div>
-          <div className={styles.menuItem}>Featured</div>
-          {balance ? (
+           {balance ? (
             <div
               className={(styles.balance, styles.menuItem)}
               onClick={openModal}
@@ -64,7 +62,6 @@ const Header = () => {
               </Modal>
             </div>
           )}
-          <CgMenuGridO fontSize={30} className={styles.menuItem} />
         </div>
       </div>
     </ModalProvider>
