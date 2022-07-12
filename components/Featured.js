@@ -9,7 +9,7 @@ const Featured = () => {
   ])
 
   const styles = {
-    container: `h-[400px] w-[85%] flex p-[20px] flex-col`,
+    container: `h-[400px] w-[85%] flex p-[5px] flex-col`,
     title: `text-2xl font-bolder mb-[20px] mt-[30px] mb-24 ml-[40px]`,
     cards: `h-full w-full flex gap-[100px] justify-between mb-[30px] ml-[30px]`,
     card1: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
