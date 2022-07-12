@@ -9,14 +9,14 @@ const Featured = () => {
   ])
 
   const styles = {
-    container: `h-[400px] w-full flex bg-[#000] text-white p-[0px] flex-col`,
-    title: `text-2xl font-bolder mb-[20px] mt-[10px] mb-24 ml-[10px]`,
-    cards: `h-full w-full flex gap-[30px] justify-between mb-[10px] ml-[10px]`,
-    card1: `h-[40px] w-[40px] p-[10px] rounded-10x1 bg-gradient-to-l from-[#ffff33] to-[#33ffff] relative cursor-pointer transition-all duration-300  hover:scale-200 hover:shadow-xl border-1 border-[#33ffff]`,
-    card2: `h-[40px] w-[40px] p-[20px] rounded-5xl bg-gradient-to-l from-[#ff33ff] to-[#ffff33] relative cursor-pointer transition-all duration-300 hover:scale-200 hover:shadow-xl border-1 border-[#33ffff]`,
-    card3: `h-[40px] w-[40px] p-[20px] rounded-20xl bg-gradient-to-l from-[#ffff33] to-[#3f3f3f] relative cursor-pointer transition-all duration-300 hover:scale-200 hover:shadow-xl border-1 border-[#33ffff]`,
-    card4: `h-[40px] w-[40px] p-[20px] rounded-l bg-gradient-to-l from-[#33ffff] to-[#33ff33] relative cursor-pointer transition-all duration-300 hover:scale-200 hover:shadow-xl border-1 border-[#33ffff]`,
-    cardCross: `h-[180px] w-[125px] rounded-l absolute bottom-[10px] left-[10px] transition-all duration-300 hover:scale-120 flex  overflow-hidden`,
+    container: `h-[400px] w-full flex p-[20px] flex-col`,
+    title: `text-2xl font-bolder mb-[20px] mt-[30px] mb-24 ml-[40px]`,
+    cards: `h-full w-full flex gap-[100px] justify-between mb-[30px] ml-[30px]`,
+    card1: `h-[130px] w-[400px] p-[20px] rounded-3xl bg-gradient-to-l from-[#0d141c] to-[#42667e] relative cursor-pointer transition-all duration-300  hover:scale-105 hover:shadow-xl border-2 border-[#fb9701]`,
+    card2: `h-[130px] w-[400px] p-[20px] rounded-3xl bg-gradient-to-l from-[#0d141c] to-[#42667e] relative cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl border-2 border-[#fb9701]`,
+    card3: `h-[130px] w-[400px] p-[20px] rounded-3xl bg-gradient-to-l from-[#0d141c] to-[#42667e] relative cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl border-2 border-[#fb9701]`,
+    card4: `h-[130px] w-[400px] p-[20px] rounded-3xl bg-gradient-to-l from-[#0d141c] to-[#42667e] relative cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl border-2 border-[#fb9701]`,
+    cardCross: `h-[180px] w-[125px] rounded-3xl absolute bottom-[20px] left-[20px] transition-all duration-300 hover:scale-105 flex  overflow-hidden`,
   }
   return (
     <div className={styles.container}>
@@ -24,29 +24,29 @@ const Featured = () => {
       <div className={styles.cards}>
         <div className={styles.card1}>
           <div className={styles.cardCross}>
-            <image className='object-cover'>
-              <source src='../assets/tcards/1_True.gif' />
-            </image>
+            <video autoPlay loop muted controls='' className='object-cover'>
+              <source src='https://openseauserdata.com/files/3565db33a856b19f48396062e59e6d62.mp4#t=0.001' />
+            </video>
           </div>
         </div>
         <div className={styles.card2}>
           <div className={styles.cardCross}>
             <video autoPlay loop muted controls='' className='object-cover'>
-              <source src='../assets/tcards/2_Twatch.gif' />
+              <source src='https://openseauserdata.com/files/89cba6f1544810aea19d78e664981d63.mp4#t=0.001' />
             </video>
           </div>
         </div>
         <div className={styles.card3}>
           <div className={styles.cardCross}>
             <video autoPlay loop muted controls='' className='object-cover'>
-              <source src='../assets/tcards/3_Secund.gif#t=0.001' />
+              <source src='https://openseauserdata.com/files/894fd3d49c7c258d202a22bb710a3416.mp4#t=0.001' />
             </video>
           </div>
         </div>
         <div className={styles.card4}>
           <div className={styles.cardCross}>
             <video autoPlay loop muted controls='' className='object-cover'>
-              <source src='../assets/tcards/4_Day.gif.gif#t=0.001' />
+              <source src='https://openseauserdata.com/files/022c0aad904ddbd8884b12468aaaad28.mp4#t=0.001' />
             </video>
           </div>
         </div>
