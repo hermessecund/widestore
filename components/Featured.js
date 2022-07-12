@@ -18,6 +18,12 @@ const Featured = () => {
     card4: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
     card5: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
     card6: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card7: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card8: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card9: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card10: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card11: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card12: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
     cardCross: `h-[180px] w-[125px] rounded-3xl absolute bottom-[20px] left-[20px] transition-all duration-300 hover:scale-105 flex  overflow-hidden`,
   }
   return (
@@ -60,6 +66,48 @@ const Featured = () => {
           </div>
         </div>
         <div className={styles.card6}>
+          <div className={styles.cardCross}>
+            <video autoPlay loop muted controls='' className='object-cover'>
+              <source src='' />
+            </video>
+          </div>
+        </div><br>
+        <div className={styles.card7}>
+          <div className={styles.cardCross}>
+            <video autoPlay loop muted controls='' className='object-cover'>
+              <source src='' />
+            </video>
+          </div>
+        </div>
+        <div className={styles.card8}>
+          <div className={styles.cardCross}>
+            <video autoPlay loop muted controls='' className='object-cover'>
+              <source src='' />
+            </video>
+          </div>
+        </div>
+        <div className={styles.card9}>
+          <div className={styles.cardCross}>
+            <video autoPlay loop muted controls='' className='object-cover'>
+              <source src='' />
+            </video>
+          </div>
+        </div>
+        <div className={styles.card10}>
+          <div className={styles.cardCross}>
+            <video autoPlay loop muted controls='' className='object-cover'>
+              <source src='' />
+            </video>
+          </div>
+        </div>
+        <div className={styles.card11}>
+          <div className={styles.cardCross}>
+            <video autoPlay loop muted controls='' className='object-cover'>
+              <source src='' />
+            </video>
+          </div>
+        </div>
+        <div className={styles.card12}>
           <div className={styles.cardCross}>
             <video autoPlay loop muted controls='' className='object-cover'>
               <source src='' />
