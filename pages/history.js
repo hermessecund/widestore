@@ -8,7 +8,7 @@ import Transaction from '../components/Transaction'
 const history = () => {
   const styles = {
     container: `h-full w-full flex bg-[#000] text-white`,
-    main: `w-full h-full flex flex-col mt-[50px]`,
+    main: `w-full h-full flex flex-col mt-[0px]`,
     tableContainer: `w-full h-full flex flex-col p-[0px] justify-center`,
     pageTitle: `text-2xl font-bold text-left mt-[50px] mb-[30px]`,
     transactions: `flex gap-[50px] flex-row flex-wrap`,
