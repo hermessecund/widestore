@@ -13,7 +13,7 @@ const BuyModal = ({ close, buyTokens }) => {
     input: `w-[50%] h-[50px] bg-[#f7f6f2] rounded-lg p-[10px] flex mx-auto`,
     inputBox: `w-full h-full flex items-center justify-center bg-[#f7f6f2] text-black focus:outline-none`,
     price: `w-full h-full flex justify-center items-center mt-[20px] font-bold text-3xl`,
-    buyBtn: `w-[20%] h-[20px] bg-[#33ffff] mt-[20px] rounded-lg p-[10px] flex mx-auto text-black justify-center items-center cursor-pointer`,
+    buyBtn: `w-[20%] h-[30px] bg-[#33ffff] mt-[20px] rounded-lg p-[5px] flex mx-auto text-black justify-center items-center cursor-pointer`,
     loaderContainer: `w-full h-[400px] flex items-center justify-center`,
     loader: `w-full h-full flex items-center justify-center`,
     etherscan: `w-full h-full flex items-center justify-center text-green-500 text-2xl mt-[20px] font-bold cursor-pointer`,
