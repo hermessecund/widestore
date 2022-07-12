@@ -4,7 +4,7 @@ import { AmazonContext } from '../context/AmazonContext'
 
 const Cards = () => {
   const styles = {
-    container: `h-full w-full flex flex-col bg-[#000] text-white`,
+    container: `h-full w-full flex flex-col bg-[#000] text-white p-[0px]`,
     title: `text-xl font-bolder mb-[20px] mt-[30px]  ml-[30px]`,
     cards: `flex items-center flex-col bg-[#000] text-white flex-wrap gap-[20px]`,
   }
