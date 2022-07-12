@@ -17,6 +17,7 @@ const Featured = () => {
     card3: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#ffffff] to-[#ffffff] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
     card4: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#ffffff] to-[#ffffff] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
     card5: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#ffffff] to-[#ffffff] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card6: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#ffffff] to-[#ffffff] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
     cardCross: `h-[180px] w-[125px] rounded-3xl absolute bottom-[20px] left-[20px] transition-all duration-300 hover:scale-105 flex  overflow-hidden`,
   }
   return (
@@ -52,6 +53,13 @@ const Featured = () => {
           </div>
         </div>
         <div className={styles.card5}>
+          <div className={styles.cardCross}>
+            <video autoPlay loop muted controls='' className='object-cover'>
+              <source src='' />
+            </video>
+          </div>
+        </div>
+        <div className={styles.card6}>
           <div className={styles.cardCross}>
             <video autoPlay loop muted controls='' className='object-cover'>
               <source src='' />
