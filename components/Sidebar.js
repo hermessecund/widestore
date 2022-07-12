@@ -113,7 +113,7 @@ const Sidebar = () => {
         </Link>
       </div>
       <div className={styles.companyName}>
-        <Image src={logo_h} alt='HS' height={200} width={200} />
+        <Image src={logo_h} alt='HS' height={150} width={150} />
       </div>
     </div>
   )
