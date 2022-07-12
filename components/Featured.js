@@ -114,7 +114,6 @@ const Featured = () => {
             </video>
           </div>
         </div>
-      </div>
     </div>
   )
 }
