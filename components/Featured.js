@@ -12,12 +12,12 @@ const Featured = () => {
     container: `h-[400px] w-[85%] flex p-[20px] flex-col`,
     title: `text-2xl font-bolder mb-[20px] mt-[30px] mb-24 ml-[40px]`,
     cards: `h-full w-full flex gap-[100px] justify-between mb-[30px] ml-[30px]`,
-    card1: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#ffffff] to-[#ffffff] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
-    card2: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#ffffff] to-[#ffffff] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
-    card3: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#ffffff] to-[#ffffff] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
-    card4: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#ffffff] to-[#ffffff] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
-    card5: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#ffffff] to-[#ffffff] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
-    card6: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#ffffff] to-[#ffffff] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card1: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card2: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card3: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card4: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card5: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
+    card6: `h-[130px] w-[400px] p-[10px] rounded-3xl bg-gradient-to-l from-[#000000] to-[#000000] relative cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl border-2 border-[#ffff99]`,
     cardCross: `h-[180px] w-[125px] rounded-3xl absolute bottom-[20px] left-[20px] transition-all duration-300 hover:scale-105 flex  overflow-hidden`,
   }
   return (
