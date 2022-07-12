@@ -4,17 +4,16 @@ import { AmazonContext } from '../context/AmazonContext'
 
 const Cards = () => {
   const styles = {
-    container: `h-full w-full flex flex-col bg-[#000] text-white p-[0px]`,
+    container: `h-full w-full flex flex-col ml-[20px] -mt-[50px]`,
     title: `text-xl font-bolder mb-[20px] mt-[30px]  ml-[30px]`,
-    cards: `flex items-center flex-col bg-[#000] text-white flex-wrap gap-[20px]`,
+    cards: `flex items-center  flex-wrap gap-[80px]`,
   }
   const { assets } = useContext(AmazonContext)
-  
+
   return (
     <div className={styles.container}>
       <div className={styles.title}>New Release</div>
       <div className={styles.cards}>
-        <Card/>
         <div className={styles.cards}>
           {assets.map(item => {
             let asset = item.attributes
