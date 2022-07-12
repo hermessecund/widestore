@@ -58,20 +58,6 @@ const Featured = () => {
             </video>
           </div>
         </div>
-        <div className={styles.card5}>
-          <div className={styles.cardCross}>
-            <video autoPlay loop muted controls='' className='object-cover'>
-              <source src='' />
-            </video>
-          </div>
-        </div>
-        <div className={styles.card6}>
-          <div className={styles.cardCross}>
-            <video autoPlay loop muted controls='' className='object-cover'>
-              <source src='' />
-            </video>
-          </div>
-        </div>
       </div>
      </div>
     </div>
