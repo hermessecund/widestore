@@ -9,7 +9,7 @@ const Cards = () => {
     cards: `flex items-center flex-col bg-[#000] text-white flex-wrap gap-[20px]`,
   }
   const { assets } = useContext(AmazonContext)
-console.log(assets)
+  
   return (
     <div className={styles.container}>
       <div className={styles.title}>New Release</div>
