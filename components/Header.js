@@ -64,6 +64,7 @@ const Header = () => {
               </Modal>
             </div>
           )}
+          <CgMenuGridO fontSize={30} className={styles.menuItem} />
         </div>
       </div>
     </ModalProvider>
