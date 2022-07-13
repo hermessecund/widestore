@@ -3,7 +3,6 @@ import { IoIosClose } from 'react-icons/io'
 import { AmazonContext } from '../context/AmazonContext'
 import { HashLoader } from 'react-spinners'
 import Link from 'next/link'
-import logo from '../assets/ico_logo.png'
 
 const BuyModal = ({ close, buyTokens }) => {
   const styles = {
@@ -16,7 +15,7 @@ const BuyModal = ({ close, buyTokens }) => {
     price: `w-full h-full flex justify-center items-center mt-[20px] font-bold text-3xl`,
     buyBtn: `w-[20%] h-[30px] bg-[#33ffff] mt-[20px] rounded-lg p-[5px] flex mx-auto text-black justify-center items-center cursor-pointer`,
     loaderContainer: `w-full h-[400px] flex items-center justify-center`,
-    loader: `w-full h-full flex items-center justify-center logo `,
+    loader: `w-full h-full flex items-center justify-center`,
     etherscan: `w-full h-full flex items-center justify-center text-green-500 text-2xl mt-[20px] font-bold cursor-pointer`,
     success: `w-full h-full flex items-center justify-center text-xl mt-[20px] font-bolder`,
   }
