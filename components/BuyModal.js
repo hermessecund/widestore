@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const BuyModal = ({ close, buyTokens }) => {
   const styles = {
-    container: `h-full w-full flex bg-[#000] text-white `,
+    container: `h-full w-full flex bg-[#000] text-white flex-col`,
     closeX: `w-full h-[50px] flex items-center justify-end mb-[10px]`,
     title: `text-3xl font-bold flex flex-1 items-center mt-[20px] justify-center mb-[40px]`,
     content: `flex w-full mb-[20px] text-xl justify-center`,
