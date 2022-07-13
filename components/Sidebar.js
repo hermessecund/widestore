@@ -14,11 +14,11 @@ import Link from 'next/link'
 const Sidebar = () => {
   const styles = {
     container: `h-full w-[300px] flex flex-col bg-[#000] text-white static`,
-    profile: ` w-full py-0 flex flex-col justify-center items-center rounded-r-3xl mt-[0px] mb-[0px] border-1 border-[#33ffff]`,
+    profile: ` w-full py-2 flex flex-col justify-center items-center rounded-r-3xl mt-[0px] mb-[0px] border-1 border-[#33ffff]`,
     profilePicContainer: `flex  rounded-xl items-center justify-center w-full h-full mb-5`,
     profilePic: `rounded-2xl object-cover`,
     welcome: ` text-md mb-2 font-bold text-2xl text-white`,
-    walletAddress: `text-xl flex w-full justify-center font-extrabold mb-4`,
+    walletAddress: `text-xl flex w-full justify-center font-extrabold mb-2`,
     menu: `flex flex-col w-full h-full px-10 gap-10`,
     menuItem: `flex items-center text-lg font-bold cursor-pointer gap-2`,
     amazonLogo: `mr-4 flex object-cover`,
